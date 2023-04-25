@@ -5,7 +5,13 @@
   "repository": "https://github.com/brennerpaiva/primeira-api.git",
   "author": "Brenner Paiva <114958953+brennerpaiva@users.noreply.github.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
